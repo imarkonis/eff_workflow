@@ -1,0 +1,24 @@
+Estimation of land cover area on planet K2-18b.
+
+Data:
+
+probe_run_01: Data from 10 probe launches to planet surface. 
+Sample size of 10 binary values (0/1). Flag -999 for missing values.
+
+
+Workflow: 
+
+Run scripts in folder 'bin' ot import and preprocess data and 
+then 'experiments' for specific analyses.
+
+
+Scripts:
+
+00_data_import.R: Import data to appropriate format. 
+01_data_preparation.R: Data pre-processing.
+
+
+Experiments:
+
+01_land_cover_run_01: Estimation of land coverage for probe run 01. 
+02_na_effect_run_01: Comparison of different values for NA in probe run 01.

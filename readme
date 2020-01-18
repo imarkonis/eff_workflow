@@ -8,11 +8,11 @@ Sample size of 10 binary values (0/1). Flag -999 for missing values.
 
 Workflow: 
 
-Run scripts in folder 'bin' ot import and preprocess data and 
+Run scripts in folder 'init' ot import and preprocess data and 
 then 'experiments' for specific analyses.
 
 
-Scripts:
+Init:
 
 00_data_import.R: Import data to appropriate format. 
 01_data_preparation.R: Data pre-processing.

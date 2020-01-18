@@ -2,7 +2,7 @@
 
 source('./source/libraries.R')
 source('./source/graphics.R')
-source('./experiments/01_land_cover_run_01/main.R')
+source('./experiments/01_land_cover_run_01/auxiliary.R')
 
 load(paste0(experiment_path, 'land_est_run_01.Rdata')) #produced by 02_land_estimation_run_01
 
